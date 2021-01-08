@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F6FA;
+    font-size: 14px;
+}
+#messages {
+
+    width: 600px;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-top: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    padding: 15px;
+}
+
+h6 {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.trash {
+    width: 15px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.last-row {
+    border-bottom: 1px solid #DADADA;
+}
+
+.compteur {
+    display: block;
+    background: #efecf4;
+}
+.total {
+    color: #2a9292;
+}
+#totalNumber {
+    color: #aa573c;
+}
+#new-message:focus,
+#btn-add:focus {  outline: 0; }
